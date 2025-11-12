@@ -146,48 +146,16 @@ body {
 
 /* Next participant */
 #participant-4 {
-  background: url("../images/panda1.jpg");
-  background-size: cover;
-  background-position: center;
-  transition: transform 0.8s ease, box-shadow 0.2s;
+  background-color: white;
 }
 #participant-4 .profile-photo {
-  background-image: url("../images/panda2.png");
-  background-size: cover;
-  background-position: center;
-  border-radius: 50%; /* ถ้าเป็นรูปโปรไฟล์วงกลม */
-  width: 70px; /* ตัวอย่างขนาด */
-  height: 70px;
-}
-
-#participant-4.hover-image-content {
-  position: absolute;
-  left: 50%;
-  top: 50%; /* ตำแหน่งเริ่มต้นที่ต้องการ */
-  transform: translate(-50%, -50%);
-  opacity: 0; /* ซ่อนไว้ก่อน */
-  transition: opacity 0.5s ease-out, top 0.5s ease-out;
-  color: white;
-  text-align: center;
-  
-  
-
-#participant-4:hover .card1 h1 {
-  transform: rotateY(360deg); 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-#participant-4:hover .card1 h1 {
-  font-size: 30px;
-  text-shadow: 0px 0px 10px white, 0px 0px 20px white;
-  /* ไม่ต้องใส่ transform ซ้ำที่นี่แล้ว */
+  background-image: url("../images/participant-photo.png");
 }
 
 #participant-4 .participant-name::before {
   content: "04_Chalothorn(Som/ส้ม)";
 }
 #participant-4 .participant-quote::before {
-  color: lightgray;
   /* content: "Your inspirational quote here." */
 }
 
