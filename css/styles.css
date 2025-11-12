@@ -146,12 +146,12 @@ body {
 
 /* Next participant */
 #participant-4 {
-  background: url("../images/paint.jpg");
+  background: url("../images/paint.name.jpg");
   background-size: cover;
    background-position: center;
 }
 #participant-4 .profile-photo {
-  background-image: url("../images/ss.png");
+  background-image: url("../images/fish-swarm.gif");
   background-size: cover;
   background-position: center;
   width: 100px; 
@@ -159,10 +159,12 @@ body {
 }
 
 #participant-4 .participant-name::before {
-  content: "04_Chalothorn(Som)";
-}
+  content: none;
+
+} 
 #participant-4 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "I finally finished! Now I can go back to sleep."
+
 }
 
 
